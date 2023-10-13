@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author vina
+ * @author Julian
  */
 public class RegistroLibro {
     ArrayList <Libro> listaLibros;

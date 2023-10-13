@@ -5,7 +5,7 @@
 
 /**
  *
- * @author vina
+ * @author Julian
  */
 public class Tecnico extends Libro{
     

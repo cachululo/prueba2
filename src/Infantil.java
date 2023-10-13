@@ -5,7 +5,7 @@
 
 /**
  *
- * @author vina
+ * @author Julian
  */
 public class Infantil extends Libro{
     private String edad;

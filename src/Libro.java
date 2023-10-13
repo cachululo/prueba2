@@ -5,7 +5,7 @@
 
 /**
  *
- * @author vina
+ * @author Julian
  */
 public abstract class Libro implements ICalculable{
     protected String titulo;
