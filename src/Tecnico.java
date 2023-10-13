@@ -35,7 +35,7 @@ public class Tecnico extends Libro{
 
     @Override
     public String clasificacionLibro() {
-        String clasificacion= "Tecnico: "+super.getTitulo()+", "+super.getPrecioSinIVA()+" "+this.materialExtra;
+        String clasificacion= "Tecnico: "+super.getTitulo()+", $"+(super.getPrecioSinIVA()*ICalculable.descuentoLibroTecnico)*ICalculable.IVA;
         return clasificacion;
     }
     

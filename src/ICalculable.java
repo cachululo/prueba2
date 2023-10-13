@@ -9,9 +9,14 @@
  */
 public interface ICalculable {
     
-    double IVA=0.19;
-    double descuentoLibroInfantil=0.10;
-    double descuentoLibroTecnico=0.05;
+    double IVA=1.19;
+    double descuentoLibroInfantil=0.90;
+    double descuentoLibroTecnico=0.95;
+    
+    
+    
+
+
     
     
 }

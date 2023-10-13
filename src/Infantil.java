@@ -36,7 +36,7 @@ public class Infantil extends Libro{
 
     @Override
     public String clasificacionLibro() {
-       String clasificacion= "Infantil: "+super.getTitulo()+", "+super.getPrecioSinIVA()+" "+this.getEdad();
+       String clasificacion= "Infantil: "+super.getTitulo()+", $"+(super.getPrecioSinIVA()*ICalculable.descuentoLibroInfantil)*ICalculable.IVA+" "+this.getEdad();
         return clasificacion;
     }
     
